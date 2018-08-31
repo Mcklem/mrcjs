@@ -34,7 +34,7 @@ MRCJS requires [Node.js](https://nodejs.org/) to run.
 Install the dependencies and devDependencies and start the server.
 
 ```
-$ npm install mvcjs --save
+$ npm install mrcjs --save
 ```
 
 Express install required
