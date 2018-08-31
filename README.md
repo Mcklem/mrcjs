@@ -29,7 +29,7 @@ Dillinger uses a number of open source projects to work properly:
 
 ### Installation
 
-MVCJS requires [Node.js](https://nodejs.org/) to run.
+MRCJS requires [Node.js](https://nodejs.org/) to run.
 
 Install the dependencies and devDependencies and start the server.
 
