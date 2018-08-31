@@ -1,0 +1,25 @@
+{
+  "name": "mrcjs",
+  "version": "0.0.1-alpha",
+  "description": "MRCJS is a Node.js library that will let you to organize your web server easily following a MVC folder pattern.",
+  "main": "mrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcklem/mrcjs.git"
+  },
+  "keywords": [
+    "mrc",
+    "javascript",
+    "nodejs",
+    "mrcjs"
+  ],
+  "author": "Jesus García Urtiaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mcklem/mrcjs/issues"
+  },
+  "homepage": "https://github.com/Mcklem/mrcjs#readme"
+}
