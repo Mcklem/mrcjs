@@ -21,7 +21,7 @@ Following two basic principles, to keep our server faster and easier to mantain
 
 ### Requeriments
 
-Dillinger uses a number of open source projects to work properly:
+Just this libraries are required to work properly:
 
 * [node.js] - Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 * [Express] - Fast, unopinionated, minimalist web framework for Node.js
