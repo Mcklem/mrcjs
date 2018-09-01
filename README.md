@@ -21,7 +21,7 @@ Following two basic principles, to keep our server faster and easier to mantain
 
 ### Requeriments
 
-Dillinger uses a number of open source projects to work properly:
+Just this libraries are required to work properly:
 
 * [node.js] - Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 * [Express] - Fast, unopinionated, minimalist web framework for Node.js
@@ -29,12 +29,12 @@ Dillinger uses a number of open source projects to work properly:
 
 ### Installation
 
-MVCJS requires [Node.js](https://nodejs.org/) to run.
+MRCJS requires [Node.js](https://nodejs.org/) to run.
 
 Install the dependencies and devDependencies and start the server.
 
 ```
-$ npm install mvcjs --save
+$ npm install mrcjs --save
 ```
 
 Express install required
