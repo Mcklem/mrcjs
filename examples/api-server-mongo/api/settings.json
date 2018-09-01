@@ -1,0 +1,6 @@
+{
+    "route_groups":[
+        {"name":"tasks", "enabled": true},
+        {"name":"testing/tests", "enabled": true}
+    ]
+}

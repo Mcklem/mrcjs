@@ -1,8 +1,0 @@
-{
-    "route_groups":[
-        {"name":"login", "enabled": true},
-        {"name":"tasks", "enabled": true},
-        {"name":"gameUpdate", "enabled": true},
-        {"name":"testing/tests", "enabled": true}
-    ]
-}

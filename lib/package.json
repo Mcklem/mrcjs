@@ -1,6 +1,6 @@
 {
   "name": "mrcjs",
-  "version": "0.0.1-alpha",
+  "version": "0.0.7-alpha",
   "description": "MRCJS is a Node.js library that will let you to organize your web server easily following a MVC folder pattern.",
   "main": "mrc.js",
   "scripts": {
