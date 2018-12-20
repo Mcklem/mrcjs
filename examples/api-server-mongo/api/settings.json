@@ -1,6 +1,14 @@
 {
-    "route_groups":[
-        {"name":"tasks", "enabled": true},
-        {"name":"testing/tests", "enabled": true}
-    ]
+	"middlewares":{
+		"logRequest":{
+			"description": "Display basic info about each request",
+			"routes":["/"]
+		}
+	},
+	"api_modules":{
+		"tasks":{
+			"description": "Manage tasks of the current application",
+			"enabled": true
+		}
+	} 
 }

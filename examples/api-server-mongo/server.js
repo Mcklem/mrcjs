@@ -31,16 +31,3 @@ app.listen(port);
 
 console.log('Server started on: ' + ip.address() + ":" +  port);
 
-
-//Execute a task with a timed frequency (ms)
-function loop(action, frequency) {
-    action();
-    setTimeout(() => {
-        action();
-        loop(action,frequency);
-    }, frequency)
-}
-
-loop(function(){
-    console.log(new Date());
-},3600000);

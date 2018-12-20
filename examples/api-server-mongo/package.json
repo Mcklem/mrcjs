@@ -9,7 +9,7 @@
     "fs": "0.0.1-security",
     "ip": "^1.1.5",
     "mongoose": "^5.2.12",
-    "mrcjs": "0.0.7-alpha",
+    "mrcjs": "1.0.2",
     "nodemon": "^1.18.4"
   },
   "devDependencies": {},
