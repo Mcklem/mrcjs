@@ -23,12 +23,19 @@ Each api_module in api_modules must match with the name of the module in models,
    e.g:    (you can place any module, this is just a small example)
    
 >/api/models/users.js
+
 >/api/controllers/users.js
+
 >/api/routes/users.js
+
 >/api/models/login.js
+
 >/api/controllers/login.js
+
 >/api/routes/login.js
+
 >/api/middlewares/application.js //request loggind and application middlewares...
+
 >/api/middlewares/security.js //token and others
    
    You can apply more than one route for a middleware,  the name of the middleware must be defined in the middleware module at "middlewares" folder
