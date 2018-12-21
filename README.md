@@ -1,5 +1,6 @@
 
 
+
 # MRC.js
 
 >A simple project to keep order in the caotic world of NodeJs web servers
@@ -34,13 +35,19 @@ Each api_module in api_modules must match with the name of the module in models,
 
 >/api/routes/login.js
 
->/api/middlewares/application.js //request loggind and application middlewares...
+>/api/middlewares/application.js //request login and app middlewares
 
 >/api/middlewares/security.js //token and others
    
    You can apply more than one route for a middleware,  the name of the middleware must be defined in the middleware module at "middlewares" folder
    
    Set property "enabled" of module "foo" to false before start the server to avoid loading of any controller or rute. (Models will be loaded to avoid dependency issues) 
+
+  If "logReport" property is enabled, a full report of loaded modules will be created
+  
+  Property "logReportPath" is "./api-report.log" by default, you can override it at settings file
+
+"settings.json" example bellow
   
 	  {
 		"middlewares":{
@@ -62,9 +69,10 @@ Each api_module in api_modules must match with the name of the module in models,
 				"description": "Login system, client verification",
 				"enabled": true
 			}
-		} 
-	}
-	
+		},
+	    "logReport": true
+	}	
+
   ```
 $ npm install mrcjs --save
 ```
@@ -78,6 +86,10 @@ $ npm install mrcjs --save
   (1.0.0) 
   - Better human readable settings.json.
   - Middleware recursive module loading and document declaration.
+
+(1.0.4) 
+	- Better and faster module loading due "glob" library 	(https://www.npmjs.com/package/glob) (thank you)
+	- Full report as json format will be generated, by default is disabled, but it can be enabled with "logReport" property at settings file
 
 Following two basic principles, to keep our server faster and easier to mantain
 
@@ -123,13 +135,13 @@ mrc.initialize(__dirname, app);
 
 ### Development
 
-Do you Want to contribute? 
+Do you want to contribute? 
 
 Follow the project and create a pull request, all help is welcome.
 
 ### Todos
 
- - More setting file options to control our MVC pattern
+ - More setting file options to control our MRC + M pattern (Model, Routes, Controller + Middleware)
  - Get user feedbacks
 
 
