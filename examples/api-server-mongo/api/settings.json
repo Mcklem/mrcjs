@@ -10,5 +10,7 @@
 			"description": "Manage tasks of the current application",
 			"enabled": true
 		}
-	} 
+	},
+	"logReport": true,
+	"logReportPath": "./api-report.log"
 }

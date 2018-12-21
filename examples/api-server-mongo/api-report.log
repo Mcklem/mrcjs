@@ -1,0 +1,31 @@
+{
+  "model_modules": {
+    "tasks": {
+      "loaded": true
+    }
+  },
+  "middleware_modules": {
+    "application": {
+      "loaded": true,
+      "logRequest": {
+        "routes": [
+          "/"
+        ]
+      }
+    }
+  },
+  "controller_modules": {
+    "tasks": {
+      "loaded": true
+    }
+  },
+  "route_modules": {
+    "tasks": {
+      "loaded": true
+    }
+  },
+  "routes": [
+    "/tasks",
+    "/tasks/:taskId"
+  ]
+}
